@@ -1,13 +1,14 @@
 Name:		python-ytmusicapi
-Version:	1.2.0
+Version:	1.2.1
 Release:	1
 Summary:	Unofficial API for YouTube Music
 Group:		Development/Python
 License:	MIT
 URL:		https://github.com/sigma67/ytmusicapi
-Source0:	https://files.pythonhosted.org/packages/source/y/ytmusicapi/ytmusicapi-1.2.0.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/y/ytmusicapi/ytmusicapi-%{version}.tar.gz
 BuildRequires:	python-devel
-BuildRequires:	python-pip
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description
