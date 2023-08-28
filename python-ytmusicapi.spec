@@ -9,7 +9,7 @@ Source0:	https://files.pythonhosted.org/packages/source/y/ytmusicapi/ytmusicapi-
 BuildRequires:	python-devel
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
-BuildRequires:	python%{pyver}dist(setuptools_scm)
+BuildRequires:	python%{pyver}dist(setuptools-scm)
 BuildArch:	noarch
 
 %description
