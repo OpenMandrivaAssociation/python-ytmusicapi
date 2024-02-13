@@ -1,5 +1,5 @@
 Name:		python-ytmusicapi
-Version:	1.5.1
+Version:	1.5.2
 Release:	1
 Summary:	Unofficial API for YouTube Music
 Group:		Development/Python
