@@ -1,7 +1,7 @@
 %define oname ytmusicapi
 
 Name:		python-ytmusicapi
-Version:	1.12.0
+Version:	1.12.1
 Release:	1
 Summary:	Unofficial API for YouTube Music
 Group:		Development/Python
